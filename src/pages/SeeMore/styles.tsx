@@ -8,6 +8,12 @@ export const ContainerHome = styled.div`
     background: #FF8D27;
     display: flex;
     height: 100vh;
+    width: 100%;
+
+    @media (max-width: 780px) {
+        flex-direction: column;
+        margin: 0 auto;
+    }
 `;
 
 
@@ -16,6 +22,9 @@ export const LogoContent = styled.div`
         display: flex;
         img {
             margin: auto 0;
+            @media (max-width: 800px){
+            height: 90px;
+        }
         }
 `;
 
